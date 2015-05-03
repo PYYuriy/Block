@@ -1,0 +1,52 @@
+#mainContent {
+	width: 60%;
+	height: 600px;
+	margin: 50px auto;
+	border: 4px ridge #ccc;
+}
+
+#workDiv {
+	width:50px;
+	height:50px;
+	display: none;
+	background: #525252;
+	border:3px outset #FF8000;
+	margin: 10px;
+}
+
+#navigate{
+	width: 30%;
+	height: 300px;
+	margin: 100px 35%;
+	border: 2px ridge #ccc;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	padding-top: 50px; 
+}
+input[name="widthBlok"],input[name="heightBlock"] {
+	width: 50px;
+	margin: 20px 0;
+}
+li{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: #ccc;
+	margin: 10px;
+	border:3px outset #FF8000;
+}
+li:hover{
+	border-style: ridge;
+	}
+#colRed{
+	background: red;
+}
+
+#colGreen{
+	background: green;
+}
+
+#colBlue{
+	background: blue;
+}
